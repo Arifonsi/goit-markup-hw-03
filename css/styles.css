@@ -5,6 +5,7 @@ html {
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
+  margin: 0px;
 }
 
 .container {
@@ -16,8 +17,17 @@ body {
   margin: auto;
 }
 
+.section-nav {
+  margin: auto;
+  padding: 0;
+}
+
 ul {
   list-style: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 .header-logo {
@@ -93,6 +103,11 @@ ul {
 
 .h2-text {
   display: flex;
+  justify-content: space-between;
+}
+
+.card-advantage {
+  width: 270px;
 }
 
 .h2-title {
@@ -118,7 +133,7 @@ ul {
 
 .whos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: #f5f4fa;
 }
 .h2-subtitle {
@@ -207,13 +222,13 @@ ul {
 
 -------------------------------------------------------------------------------------
   .div-buttons
-  .link {
+  .link-btn {
   background-color: #f5f4fa;
   color: #212121;
 }
 
-.div-buttons .link:hover,
-.div-buttons .link:focus {
+.div-buttons .link-btn:hover,
+.div-buttons .link-btn:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
@@ -223,7 +238,7 @@ ul {
   justify-content: center;
 }
 
-.link {
+.link-btn {
   font-family: "roboto";
   font-size: 16px;
   line-height: 1.6;
