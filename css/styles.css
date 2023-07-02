@@ -63,12 +63,14 @@ a {
 }
 
 .title {
-  background-color: #2f303a;
   display: flex;
   height: 600px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.bg-dark {
+  background-color: #2f303a;
 }
 
 .h1-title {
@@ -148,6 +150,9 @@ a {
 .our-team {
   display: flex;
   justify-content: space-between;
+}
+
+.bg-gray {
   background-color: #f5f4fa;
 }
 
